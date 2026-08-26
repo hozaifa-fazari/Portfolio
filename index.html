@@ -479,6 +479,12 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;}
 }
 .mstage__note a{color:var(--scope);}
 .mstage__note a:hover{color:var(--marigold);}
+.mstage__note .openbtn{
+  display:inline-flex;align-items:center;gap:6px;
+  border:1px solid var(--line);border-radius:100px;padding:5px 13px;
+  color:var(--bone);background:var(--panel);transition:all .3s var(--ease);
+}
+.mstage__note .openbtn:hover{background:var(--marigold);border-color:var(--marigold);color:#000;}
 .mgallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px;margin-bottom:34px;}
 .mgallery img{width:100%;height:100%;object-fit:cover;border:1px solid var(--line-soft);}
 
@@ -780,7 +786,7 @@ const SECTIONS = [
   {
     title:"Laiben EV Home Charger", client:"TechLink AE", year:"2025",
     role:"Concept &#183; AI Production &#183; Edit", img:"techlink-laiben.jpg",
-    drive:D("1THl4g1bxIAMwFTstAiId23GicDlC8rQH"), stage:"v9x16", flag:{t:"AI Pipeline",c:"ai"},
+    drive:D("1VRxaunwOEnSO6Up4sAHIyx2ue3-oS0c8"), stage:"v9x16", flag:{t:"AI Pipeline",c:"ai"},
     tools:["Premiere Pro","After Effects","Generative Video","Sound Design"],
     b:{
       context:"TechLink sells smart-home hardware direct to UAE consumers. The Laiben EV charger needed a launch ad able to stand next to manufacturer-produced content in a crowded feed.",
@@ -792,7 +798,7 @@ const SECTIONS = [
   {
     title:"Pinsheng Smart Door Lock", client:"TechLink AE", year:"2025",
     role:"Concept &#183; AI Production &#183; Edit", img:"techlink-pinsheng.jpg",
-    drive:D("1YpbeEJHkXjY6-wHC2H_6oAh6zTuhTSzJ"), stage:"v9x16", flag:{t:"AI Pipeline",c:"ai"},
+    drive:D("1o13oe_BJP8sccAF82qKqJ_UOm_U6zWpf"), stage:"v9x16", flag:{t:"AI Pipeline",c:"ai"},
     tools:["Premiere Pro","After Effects","Generative Video","Motion Graphics"],
     b:{
       context:"Second product in the TechLink e-commerce campaign &#8212; a smart door lock sold on convenience and, more importantly, on trust.",
@@ -804,7 +810,7 @@ const SECTIONS = [
   {
     title:"IeGeek Smart Camera", client:"TechLink AE", year:"2025",
     role:"Concept &#183; AI Production &#183; Edit", img:"techlink-iegeek.jpg",
-    drive:D("1SE8kOp7QawkIBTyZyzX9q9EWE6nUqGO_"), stage:"v9x16", flag:{t:"AI Pipeline",c:"ai"},
+    drive:D("1nHfVCrfMv9MWfOQe9Wo8tX6uhYzju1cM"), stage:"v9x16", flag:{t:"AI Pipeline",c:"ai"},
     tools:["Premiere Pro","After Effects","Generative Video","Colour"],
     b:{
       context:"Third product in the TechLink campaign &#8212; a home security camera whose entire value proposition is the footage it captures.",
@@ -857,7 +863,7 @@ const SECTIONS = [
   {
     title:"Aadiyat &#215; Lesaffre &#8212; Saf-Instant", client:"Aadiyat Sudan / Lesaffre", year:"2023",
     role:"Videography &#183; Edit", img:"adiyat-lesaffre.jpg",
-    drive:D("1AIc3fr1YOGC1RYQSXnReopUcl2ZFL0-Y"), stage:"v16x9",
+    drive:D("1x_eOEEBNuFJCCsWi8JbuAcO9HssHPbYC"), stage:"v16x9",
     tools:["Premiere Pro","DaVinci Resolve","Field Production","Interview"],
     b:{
       context:"A B2B company profile produced for a major African trade conference in Egypt, presenting Aadiyat Sudan's distribution partnership with the French yeast manufacturer Lesaffre (Saf-Instant).",
@@ -898,7 +904,7 @@ const SECTIONS = [
   {
     title:"Sunosi &#8212; Founder Reel 01", client:"Mohamad El Sanousi", year:"2025",
     role:"Remote Edit &#183; Motion", img:"sunosi-1.jpg",
-    drive:D("1zbsXV9ggc0BksjQ2O90T2nrtmsrC-bWU"), stage:"v9x16",
+    drive:D("1xVheqyGJ54IPMYicnDaNKp71b6Cd9jQy"), stage:"v9x16",
     tools:["Premiere Pro","After Effects","Kinetic Captions"],
     b:{
       context:"Short-form personal-branding content for an agency founder building authority on social.",
@@ -934,7 +940,7 @@ const SECTIONS = [
   {
     title:"Morocco Vlog", client:"Personal Brand", year:"2025",
     role:"Edit &#183; Colour", img:"morocco-vlog.jpg",
-    drive:D("1iYC1dym3OgKYMvyoidPX9CPfPtaBluJm"), stage:"v9x16",
+    drive:D("1nXWA7CVh5bJP1PZ_vPrpmBCwEeSS3eeX"), stage:"v9x16",
     tools:["Premiere Pro","DaVinci Resolve","Colour"],
     b:{
       context:"A vertical travel piece built from personal footage shot in Morocco.",
@@ -951,7 +957,7 @@ const SECTIONS = [
   {
     title:"Snowden Hiking Vlog &#8212; Highlight", client:"Personal Brand", year:"2025",
     role:"Edit &#183; Sound", img:"snowden-hiking.jpg",
-    drive:D("1X7qrYhEydpDOI4oCKMSe4p7b9FnrxgO3"), stage:"v16x9",
+    drive:D("1Z2pDNL-678yAsLeBdP3WjcTErmRZE-Fb"), stage:"v16x9",
     tools:["Premiere Pro","DaVinci Resolve","Sound Design"],
     b:{
       context:"A highlight cut condensing a full hiking vlog into a short, shareable piece.",
@@ -963,7 +969,7 @@ const SECTIONS = [
   {
     title:"Money Saving Hacks", client:"Faceless YouTube", year:"2025",
     role:"Concept &#183; Edit &#183; Sound", img:"money-saving-hacks.jpg",
-    drive:D("1smdsuyZtRBr3Wvv-dLTIJbaAeBuuGFl_"), stage:"v16x9", flag:{t:"Faceless",c:""},
+    drive:D("189OGkXzxxvkl5I7Zwq6HIdUDEkjMWO4H"), stage:"v16x9", flag:{t:"Faceless",c:""},
     tools:["Premiere Pro","After Effects","Stock Curation","Sound Design"],
     b:{
       context:"Long-form faceless YouTube content &#8212; no presenter, no original footage, built entirely from voiceover, licensed stock and design.",
@@ -975,7 +981,7 @@ const SECTIONS = [
   {
     title:"Psychological Traps", client:"Faceless YouTube", year:"2025",
     role:"Concept &#183; Edit &#183; Motion", img:"psychological-traps.jpg",
-    drive:D("14K2b4ZkM7_BprNU-9FjqeJr-PVYGruij"), stage:"v16x9", flag:{t:"Faceless",c:""},
+    drive:D("1aBJ1MQiWgz3GiFGN7Z30oqTHjajjOQJg"), stage:"v16x9", flag:{t:"Faceless",c:""},
     tools:["Premiere Pro","After Effects","Motion Graphics"],
     b:{
       context:"A faceless YouTube essay on cognitive traps and everyday decision-making.",
@@ -987,7 +993,7 @@ const SECTIONS = [
   {
     title:"New Year Motivation", client:"Faceless YouTube", year:"2025",
     role:"Concept &#183; Edit &#183; Colour", img:"new-year-motivation.jpg",
-    drive:D("10vBGB6iVGwgpz-8Rd2zvaumMaufG_2_e"), stage:"v16x9", flag:{t:"Faceless",c:""},
+    drive:D("1w_MP_W8FRhU5Qhge1OmY2wxy7EZ4ec1K"), stage:"v16x9", flag:{t:"Faceless",c:""},
     tools:["Premiere Pro","DaVinci Resolve","Sound Design"],
     b:{
       context:"A motivational faceless piece timed for the new-year content window.",
@@ -1480,8 +1486,9 @@ function openCase(i){
   if (p.drive) {
     stage = '<div class="mstage ' + p.stage + '"><iframe src="' + p.drive +
             '" allow="autoplay; fullscreen" allowfullscreen title="' + strip(p.title) + '"></iframe></div>' +
-            '<div class="mstage__note"><span>Streaming via Google Drive</span>' +
-            '<a href="' + p.drive.replace('/preview','/view') + '" target="_blank" rel="noopener">Open in new tab &#8599;</a></div>';
+            '<div class="mstage__note"><span>Streaming via Google Drive &#8212; if the player doesn\'t load, open it directly</span>' +
+            '<a class="openbtn" href="' + p.drive.replace('/preview','/view') +
+            '" target="_blank" rel="noopener">Watch on Drive &#8599;</a></div>';
   } else {
     stage = '<div class="mstage"><img src="assets/img/' + p.img + '" alt="' + strip(p.title) + '"></div>' +
             '<div class="mstage__note"><span>' + p.role + '</span><span>' + p.year + '</span></div>';
